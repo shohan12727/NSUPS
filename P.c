@@ -3,12 +3,11 @@
 
 int main() {
     int T;
-    // T means how many different falt do i need to calculate
     scanf("%d", &T);
 
-    while(T--) {
+    while (T--) {
         double L;
-        scanf("lf", &L);
+        scanf("%lf", &L);
 
         double W = (3.0 / 5.0) * L;
         double R = L / 5.0;
@@ -17,9 +16,9 @@ int main() {
         double total = L * W;
         double green = total - red;
 
-        print("%.2f %.2\n", red, green);
+        printf("%.2f %.2f\n", red, green);
     }
-
 
     return 0;
 }
+
